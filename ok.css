@@ -1,16 +1,36 @@
 * {
-	margin: 0;
-	padding: 0;
+	box-sizing: border-box;
+	
 }
 
-h2{
+.wrapper {
+	background-color: gray;
+	height: 1100px;
+}
+
+.header {
+	padding: 30px;
+	text-align: center;
+	font-size: 35px;
+	color:white ;
+
+}
+.p {
+	float: right;
+	widows: 70%;
 	color: white;
-	font-family: Abril Fatface;
+
 }
-div.main {
-	width: 400px;
-	margin: 100px auto 0px auto;
+.nav ,ul {
+	font-size: 24px;
 }
-.submit {
-	background-color: blue;
+a {
+	text-decoration: none;
+	color: white;
+}
+footer {
+	padding: 10px;
+	text-align: center;
+	background-color: gray;
+	color: white;
 }
